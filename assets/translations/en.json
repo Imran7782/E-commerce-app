@@ -1,0 +1,27 @@
+{
+    "@@locale": "en",
+    "hello": "Hello!",
+    "welcome": "Welcome to the shopping app!",
+     "esy":"The Easiest Way to Shop",
+     "getstrted":"Get Start and Enjoy The best Shpping with Us",
+     "next": "Next",
+    "done":"Done",
+    "skip":"Skip",
+    "logintext":"Login",
+    "signuptext":"Sign Up",
+    "email":"Email",
+    "password":"Password",
+     "login_title":"Login",
+     "confirm_password":"Confirm Password",
+     "forgot_password_Title":"Forgot Password",
+     "or_title":"Or",
+     "terms_text":"By continuing, you acknowledge and agree to our Terms of Service and Privacy Policy. You also agree to join our security community, where we prioritize the protection of your data and ensure a safe experience for all users."
+     ,"newusertext":"New User?",
+     "OTP_titel":"OTP Verification",
+     "OTP_text":"Your code has been sent to Imra**@gmai.com",
+     "OTP_text1":"This code will expire in",
+     "OTP_text2":"Resend Code",
+     "OTP_finshed":"The time for the code has expired!",
+     "Already_have_an_account?": "Already have an account?Already have an account?"
+    }
+  
