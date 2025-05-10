@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "856808754766",
+    "project_id": "kurd-shop1",
+    "storage_bucket": "kurd-shop1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856808754766:android:d93c4d5d5bce54b399bd1f",
+        "android_client_info": {
+          "package_name": "com.example.shopapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1VmsjrMz6NWQdqXg-7kLCmFqD19FktfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
