@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
@@ -43,8 +44,8 @@ class CartPage extends StatelessWidget {
                           icon: const Icon(Icons.arrow_back_ios,
                               size: 24, color: Colors.black),
                         ),
-                        const Text(
-                          "Carts",
+                         Text(
+                          "carts_title".tr(),
                           style: TextStyle(
                             color: Colors.black54,
                             fontWeight: FontWeight.bold,
@@ -231,7 +232,7 @@ class CartPage extends StatelessWidget {
                                       ),
                                       Center(
                                         child: Text(
-                                          "Your cart is empty",
+                                          "your_cart_is_empty_text".tr(),
                                           style: TextStyle(
                                             color: Colors.black54,
                                             fontSize: 24,
@@ -275,8 +276,8 @@ class CartPage extends StatelessWidget {
                   padding: const EdgeInsets.all(10),
                   child: Row(
                     children: [
-                      const Text(
-                        "Total",
+                       Text(
+                        "total_text".tr(),
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
@@ -315,7 +316,7 @@ class CartPage extends StatelessWidget {
                                 ),
                               );
                             },
-                      child: const Text("Check Out",
+                      child:  Text("check_out".tr(),
                           style: TextStyle(fontSize: 18, color: Colors.black)),
                     ),
                   ),

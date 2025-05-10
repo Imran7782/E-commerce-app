@@ -1,4 +1,5 @@
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -47,7 +48,7 @@ class FavoirtScetion extends StatelessWidget {
                             size: 24, color: Colors.black),
                       ),
                       Text(
-                        "favorite",
+                        "favorite_text".tr(),
                         style: GoogleFonts.dmSerifText(
                           fontWeight: FontWeight.bold,
                           color: Colors.black54,
@@ -189,7 +190,7 @@ class FavoirtScetion extends StatelessWidget {
                                         Center(
                                           child: Text(
                                             textAlign: TextAlign.center,
-                                            "Your Favorite List is empty\n Try  add some item",
+                                            "favorite_sub_text".tr(),
                                             style: TextStyle(
                                               
                                                 fontSize: 16,

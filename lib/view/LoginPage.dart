@@ -301,7 +301,9 @@ class _LoginpageState extends State<Loginpage> {
                     ScaffoldMessenger.of(
                       context,
                     ).showSnackBar(SnackBar(content: Text(errorMessage)));
-                  }finally{
+                  }
+                  finally{
+                    Navigator.pop(context);
                     setState(() {
                       isLoading=false;
                     });

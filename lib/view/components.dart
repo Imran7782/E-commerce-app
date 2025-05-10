@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -47,10 +48,10 @@ class Components {
   ];
 
   List<Text> text = [
-    Text("Personal Information", style: fstyle),
-    Text("Cards Mangement", style: fstyle),
-    Text("Privcy and Security", style: fstyle),
-    Text("Support", style: fstyle),
+    Text("personal_information".tr(), style: fstyle),
+    Text("cards_mangement".tr(), style: fstyle),
+    Text("privcy_and_security".tr(), style: fstyle),
+    Text("support_text".tr(), style: fstyle),
   ];
 
   Future<dynamic> logouAlert(BuildContext context) {
@@ -67,7 +68,7 @@ class Components {
           backgroundColor: Colors.white,
           title:  Center(
             child: Text(
-              "Are you sure u want to log out ?",
+              "are_you_sure_u_want_to_log_out_?".tr(),
               style: GoogleFonts.dmSerifText(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
@@ -110,7 +111,7 @@ class Components {
                 ),
               ),
               label: Text(
-                "Logout",
+                "Logout_text".tr(),
                 style: GoogleFonts.dmSerifText(
                   color: Colors.white,
                   fontWeight: FontWeight.bold
@@ -131,7 +132,7 @@ class Components {
                 ),
               ),
               label: Text(
-                "Cancel",
+                "cancel_text".tr(),
                 style: GoogleFonts.dmSerifText(
                   color: Colors.black,
                   fontWeight: FontWeight.bold
@@ -140,7 +141,7 @@ class Components {
             ),
           ],
           content: Text(
-            "If you Log out You need Login again",
+            "if_you_log_out_you_need_login_again".tr(),
             textAlign: TextAlign.center,
             style: GoogleFonts.dmSerifText(
               color: Colors.black54,

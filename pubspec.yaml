@@ -34,11 +34,31 @@ dependencies:
   page_transition: ^2.2.1
   google_fonts: ^6.2.1
   hovering: ^1.0.4
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.6
+
+flutter_native_splash:
+  color: "#fefefe" # Use a soft light background (less harsh than pure white)
+  image: assets/undraw_showing-support_ixfc.png
+
+                  
+
+  # android: true
+  # ios: true
+
+  # android_gravity: center
+  # ios_content_mode: center
+
+  # fullscreen: true  # Gives an immersive clean look
+
+  
+  
+  
 
 flutter:
   uses-material-design: true

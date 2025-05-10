@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -26,17 +27,17 @@ class Welcomscreenlogin extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
           SizedBox(height: 50,),
-         Text(" Hello welcome ✨ ",style: GoogleFonts.dmSerifText(fontWeight: FontWeight.bold,fontSize: 36,color: Colors.black54))
+         Text("hello_welcome_text".tr(),style: GoogleFonts.dmSerifText(fontWeight: FontWeight.bold,fontSize: 36,color: Colors.black54))
       ,
          Expanded(child: SvgPicture.asset("assets/undraw_welcome.svg")),
          
          
-        Text("Welcome to kurd shop you will going to do the best shop Ever!🚀🛍️🛒",
+        Text("welcome_to_kurd_shop_you_will_going_to_do_the_best_shop_ever!".tr(),
         textAlign: TextAlign.center
         ,style:  GoogleFonts.dmSerifText(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.grey)),
         Spacer(),
       
-         ButtonsG("Continue", kcolor, Colors.black, () {
+         ButtonsG("continue_text".tr(), kcolor, Colors.black, () {
            Navigator.push(context,Components().ScreenTransitions(HomePage()));
          },),
          SizedBox(height: 60,),
@@ -47,3 +48,4 @@ class Welcomscreenlogin extends StatelessWidget {
     );
   }
 }
+

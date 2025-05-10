@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shopapp/view/components.dart';
@@ -13,7 +14,7 @@ class AboutUs extends StatelessWidget {
         shadowColor: Colors.black,
         backgroundColor: kcolor,
         title: Text(
-          "About Us",
+          "about_us_text".tr(),
           style: GoogleFonts.dmSerifText(
             fontWeight: FontWeight.bold,
             fontSize: 25,
@@ -28,7 +29,7 @@ class AboutUs extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: [
             Text(
-              "Welcome to Kurd Shop!",
+              "welcome_to_kurd_shop!".tr(),
               style:  GoogleFonts.dmSerifText(
                 fontWeight: FontWeight.bold,
                 fontSize: 22,
@@ -38,10 +39,7 @@ class AboutUs extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              ""
-              "At Kurd Shop, we believe shopping should be effortless, enjoyable, and accessible to everyone. "
-              "That’s why we bring you a seamless shopping experience with a vast collection of top-quality products, from fashion and electronics to home essentials and more."
-              "",
+              "about_content1_text".tr(),
               style:  GoogleFonts.dmSerifText(
                 fontWeight: FontWeight.bold,
                 fontSize: 16,
@@ -50,7 +48,7 @@ class AboutUs extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              "Our Mission",
+              "our_mission_text".tr(),
               style:  GoogleFonts.dmSerifText(
                 fontWeight: FontWeight.bold,
                 fontSize: 22,
@@ -60,10 +58,7 @@ class AboutUs extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              ""
-              "We are committed to providing a secure, convenient, and rewarding shopping experience. "
-              "With intuitive navigation, secure payments, and fast delivery, we ensure our customers get the best deals without any hassle."
-              "",
+              "our_mission_content_text".tr(),
               style:  GoogleFonts.dmSerifText(
                 fontWeight: FontWeight.bold,
                 fontSize: 18,
@@ -72,7 +67,7 @@ class AboutUs extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              "Why Choose Us?",
+              "why_choose_Us_text".tr(),
               style:  GoogleFonts.dmSerifText(
                 fontWeight: FontWeight.bold,
                 fontSize: 22,
@@ -82,14 +77,14 @@ class AboutUs extends StatelessWidget {
             ),
             SizedBox(height: 10),
 
-            listTiles("Wide range of high-quality products"),
-            listTiles("Exclusive deals and discounts"),
-            listTiles("Fast and reliable delivery"),
-            listTiles("Secure payment options"),
-            listTiles("24/7 customer support"),
+            listTiles("wide_range_of_high-quality_products".tr()),
+            listTiles("exclusive_deals_and_discounts".tr()),
+            listTiles("fast_and_reliable_delivery".tr()),
+            listTiles("secure_payment_options".tr()),
+            listTiles("24/7_customer_support".tr()),
 
             Text(
-              "Start shopping today and experience the future of online shopping with Kurd Shop!",
+              "about_last_text".tr(),
               textAlign: TextAlign.center,
               style: GoogleFonts.dmSerifText(
                 fontWeight: FontWeight.bold,
