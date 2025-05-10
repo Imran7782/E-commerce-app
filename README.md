@@ -28,9 +28,9 @@
 | UI Framework | Flutter (Dart) |
 | Authentication | Firebase Authentication |
 | Map Integration | Google Maps API, OpenStreetMap |
-| Localization | `flutter_localizations`, `.arb` files |
-| Backend/Database | Firebase (optionally extendable) |
-| State Management | [Add if applicable: e.g., Provider, Bloc, Riverpod] |
+| Localization | `esay_localization`, `.arb` files |
+| Backend/Database | Firebase () |
+| State Management | [Providerd] |
 
 ---
 
