@@ -119,8 +119,8 @@ Copy
 Edit
 flutter run
 ```
-![image8](https://github.com/user-attachments/assets/634d4b0f-1ac7-440c-9b9e-709935bdd8a6)
-![image9](https://github.com/user-attachments/assets/3334318d-42f2-4097-b402-4dc35e807bf4)
+![image8](https://github.com/user-attachments/assets/634d4b0f-1ac7-440c-9b9e-709935bdd8a6) ![image9](https://github.com/user-attachments/assets/3334318d-42f2-4097-b402-4dc35e807bf4)
+
 ![image11](https://github.com/user-attachments/assets/ee14d8bf-de91-43af-ac09-44da330ce88a)
 ![image13](https://github.com/user-attachments/assets/d39ba59a-14e9-432d-974f-c127ce41d4a8)
 ![image14](https://github.com/user-attachments/assets/6072f4c5-93d9-4cc3-a34e-b28039fb084c)
