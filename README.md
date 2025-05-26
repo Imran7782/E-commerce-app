@@ -132,19 +132,6 @@ flutter run
 | ![image13](https://github.com/user-attachments/assets/fddf74e9-391c-4d32-8a3c-4c286febf6f2) | ![image14](https://github.com/user-attachments/assets/734658d4-4352-4a6b-84fd-be50e99c78df) |
 
 
-![image11](https://github.com/user-attachments/assets/ee14d8bf-de91-43af-ac09-44da330ce88a)
-![image13](https://github.com/user-attachments/assets/d39ba59a-14e9-432d-974f-c127ce41d4a8)
-![image14](https://github.com/user-attachments/assets/6072f4c5-93d9-4cc3-a34e-b28039fb084c)
-![image15](https://github.com/user-attachments/assets/22b190d6-1d62-4cce-ba44-c91b37b5ef2d)
-![image12](https://github.com/user-attachments/assets/bafe079d-24c2-4a78-8aad-5faad57fd6a8)
-![image1-left](https://github.com/user-attachments/assets/8164813c-79fb-4e02-86b1-39429a820dad)
-![image2-portrait](https://github.com/user-attachments/assets/39e51ac0-8cec-432f-99d3-49ce9e1abdd8)
-![image4-portrait](https://github.com/user-attachments/assets/cbd97677-3a60-4c22-bcd1-959f49683550)
-![image1-portrait](https://github.com/user-attachments/assets/1e10d921-a645-4774-aca1-29c3720fcffe)
-![image7-portrait](https://github.com/user-attachments/assets/bb6c88dd-5a59-4b58-87d2-d3e327a86940)
-![image6-portrait](https://github.com/user-attachments/assets/fddf74e9-391c-4d32-8a3c-4c286febf6f2)
-![image5-portrait](https://github.com/user-attachments/assets/734658d4-4352-4a6b-84fd-be50e99c78df)
-
 
 🧑‍💻 Author
 Imran7782
